@@ -1,8 +1,12 @@
 [package]
 name = "kpack"
-description = "Delta-compression engine for immutable patching and image assembly"
-license = "AGPL-3.0-or-later"
+version = "0.1.0"
 edition = "2024"
-version = "0.0.0"
+license = "AGPL-3.0-or-later"
+description = "Delta-compression engine for immutable patching and image assembly"
+repository = "https://github.com/dualys/kpack"
+readme = "README.md"
+keywords = ["compression", "delta", "patch", "no_std", "immutable"]
+categories = ["compression", "no-std"]
 
 [dependencies]
